@@ -36,7 +36,7 @@ spec:
                 fieldRef:
                   fieldPath: status.podIP
             - name: BOOTNODE_ENODE
-              value: "enode://45552b86d438bf9b585c5d65f943473d64ed30c0dace3184d25ee1e92cf6007e6caa168df678058e66872a448042717cc553c8f42a00a911015261ab6e65803e@besu-0.besu-p2p.tfg.svc.cluster.local:30303"
+              value: "enode://9549d322e4ad42c19521585d4a24cbd66d2ac72e7b6bb44fc25c99563301ef2c036786a9ed89d188b3a83348897cb82abf57e6ace9bc1eeb7097461b735d9e8f@besu-0.besu-p2p.tfg.svc.cluster.local:30303"
           volumeMounts:
             - name: data
               mountPath: /opt/besu/data
@@ -144,4 +144,3 @@ spec:
         resources:
           requests:
             storage: 10Gi
-
