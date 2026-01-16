@@ -73,11 +73,7 @@ spec:
               
               if [ "$(hostname)" = "besu-0" ]; then
                 echo "Starting bootnode (besu-0)"
-                echo "Copying bootnode key from secret..."
                 
-                mkdir -p /opt/besu/data
-                cp /etc/besu/bootnode-key/key /opt/besu/data/key
-                chmod 600 /opt/besu/data/key
 
                 exec besu \
                   --data-path=/opt/besu/data \
