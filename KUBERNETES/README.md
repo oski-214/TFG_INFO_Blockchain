@@ -6,6 +6,8 @@ Para Ejecución los pasos deben ser:
 
 3º kubectl apply -f HeadLess_Service.yaml
 
-4º kubectl apply -f StatefulSet.yaml
+4ª Ejecutar cada uno de los comandos del Secret.txt
 
-5º kubectl apply -f RPC_Service.yaml
+5º kubectl apply -f StatefulSet.yaml
+
+6º kubectl apply -f RPC_Service.yaml
